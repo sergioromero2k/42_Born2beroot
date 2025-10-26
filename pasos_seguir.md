@@ -9,4 +9,9 @@
 
 ### 2. Instalación del Sistema Operativo
 **A. Instalación Mínima:** Instala Debian en la VM con una instalación mínima (sin entorno gráfico/escritorio) para centrarte en la línea de comandos.
+
+* Base Memory 1024MB.
+* Proccessors 2 CPUs.
+* Disk Size 20,00GB.
+
 **B. Particionamiento LVM:** Uno de los requisitos suele ser usar **LVM (Logical Volume Manager)** para gestionar las particiones, y a menudo se pide que al menos dos particiones estén cifradas (encriptadas). 
