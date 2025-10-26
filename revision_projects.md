@@ -19,17 +19,36 @@ Todos los proyectos serán evaluados rigurosamente. Cualquier incumplimiento de 
 
 
 - El hostname de tu MV debe ser tu login más 42 (seror42).
-- Debe tener un **contaseña fuerte**:
+- Debe tener un **contaseña fuerte**: - 1er Filtro
 ```
-Las contraseñas deben tener un mínimo de 12 caracteres.
+Las contraseñas deben tener un mínimo de 10 caracteres.
 Las contraseñas deben incluir al menos:
     Una letra mayúscula (A-Z)
     Una letra minúscula (a-z)
     Un número (0-9)
-    Un carácter especial (por ejemplo, !, @, #, $, %, ^, &, *)
+    Un carácter especial (por ejemplo, !, @, #, $, %, ^, &, *) **Extra**
+    No puede tener más de 3 veces consecutivas el mismo carácter.
+    La contraseña no puede contener el nombre del usuario.
+    La siguiente regla no se aplica a la contraseña para root:
+        La contraseña debe tener al menos 7 caracteres que no sean parte de la antigua contraseña.
+        La contraseña para root debe seguir esta política.
 ```
+
+- Debe tener un **contaseña fuerte**: - 2do Filtro
+```
+Tu contraseña debe expirar cada 30 días.
+El número mínimo de días permitido antes de modificar una contraseña deberá ser 2.
+El usuario debe recibir un mensaje de aviso 7 días antes de que su contraseña expire.
+Debe contener
+```
+
 - Tener instalado y configurado sudo siguiendo las reglas estrictas.
 - El usuario debe pertenecer a los grupos user42 y sudo.
+- Revisar que luego que preparo los archivos de configuración, hizo cambiar todas las cuentas presentes en la máquina virtual, root incluida.
+
+
+- Establece contraseña fuerte para el grupo **sudo**.
+pág 8.
 
 ##### Acciones de personas
 - Debe crear en tu delante un usuario y asignarlo a un grupo.
