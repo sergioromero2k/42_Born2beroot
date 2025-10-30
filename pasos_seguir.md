@@ -10,8 +10,16 @@
 ### 2. Instalación del Sistema Operativo
 **A. Instalación Mínima:** Instala Debian en la VM con una instalación mínima (sin entorno gráfico/escritorio) para centrarte en la línea de comandos.
 
-* Base Memory 1024MB.
-* Proccessors 2 CPUs.
-* Disk Size 20,00GB.
+##### Pasos VirtualBox (Recomendado)
+* **Name** Born2beRoot, por ejemplo.
+* **Base Memory** 1024MB.
+* **Proccessors** 2 CPUs.
+* **Disk Size** 20,00GB.
+
+Cuando vayas a montar la maquina virtual, te recomiendo no colocarla directamente ya que puede pasar lo que se llama la **instalación Desatendida**, es decir la autoconfiguración. Debido a que las versiones de 7.x de VirtualBox tiene esta función activada por defecto, esta **instalación Desatendida** te impide ver y configurar pasos cruciales para este proyecto como el **particionamiento manual**, la **creación de usuarios**, la **seleccion de paquetes**, fundamental para **netinst**.
+
+* El siguiente paso, es solo instalar en modo terminal, sin interfaz gráfica.
+* Recodar poner el idioma y lugar que te corresponda, yo puse spanish, España.
+
 
 **B. Particionamiento LVM:** Uno de los requisitos suele ser usar **LVM (Logical Volume Manager)** para gestionar las particiones, y a menudo se pide que al menos dos particiones estén cifradas (encriptadas). 
