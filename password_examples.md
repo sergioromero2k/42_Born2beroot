@@ -11,3 +11,11 @@ Ejemplos que cumplen todas las reglas excepto el extra **(sin carácter especial
 * Password123a
 * Seguridad2025 
 * Contraseña123 
+
+
+
+
+
+User: Seguridad2025
+Root: Password123a
+LVM: 
