@@ -18,3 +18,6 @@ Root: Password123a
 LVM:  Seguridad2024
 
 Nueva passwords, tras establecimiento de politicas:
+User: Fuerza#123A
+Root: Segur1dad#A
+new_user: Minim0Regla#
