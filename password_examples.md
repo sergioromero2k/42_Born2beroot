@@ -13,9 +13,8 @@ Ejemplos que cumplen todas las reglas excepto el extra **(sin carácter especial
 * Contraseña123 
 
 
-
-
-
 User: Seguridad2025
 Root: Password123a
-LVM: 
+LVM:  Seguridad2024
+
+Nueva passwords, tras establecimiento de politicas:
