@@ -6,4 +6,3 @@
 - ¿Por qué no debe conectarse root por SSH?
 - ¿Qué puerto usa SSH en tu máquina?
 
-- Durante la defensa, deberás crear un usuario y asignárselo a un grupo
