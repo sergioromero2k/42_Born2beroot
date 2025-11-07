@@ -12,9 +12,7 @@
 
 ##### Pasos VirtualBox (Recomendado, para parecerse al proyecto)
 * **Name** Born2beRoot, por ejemplo.
-* **Base Memory** 1024MB.
-* **Proccessors** 2 CPUs.
-* **Disk Size** 8GB.
+
 
 Cuando vayas a montar la maquina virtual, te recomiendo no colocarla directamente ya que puede pasar lo que se llama la **instalación Desatendida**, es decir la autoconfiguración. Debido a que las versiones de 7.x de VirtualBox tiene esta función activada por defecto, esta **instalación Desatendida** te impide ver y configurar pasos cruciales para este proyecto como el **particionamiento manual**, la **creación de usuarios**, la **seleccion de paquetes**, fundamental para **netinst**.
 

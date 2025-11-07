@@ -5,6 +5,7 @@ sudo cat /etc/sudoers | grep Defaults
 sudo cat /var/log/sudo/sudo.log
 sudo ls /var/log/sudo/
 sudo env | grep PATH
+sudo -l     # Muestra los Defaults aplicados a tu usuario.
 
 sudo visudo                       # Esto abre el archivo /etc/sudoers de forma segura.
 # Defaults        passwd_tries=3  Límite de 3 intentos de autenticación
@@ -22,3 +23,6 @@ sudo visudo                       # Esto abre el archivo /etc/sudoers de forma s
 # Defaults        secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin"
 sudo env | grep PATH        # Verificar
 
+man sudoers                 # El man page es tu mejor amigo!!
+man sudo.conf 
+# /search Defaults
