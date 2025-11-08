@@ -14,6 +14,16 @@
 - **¿Qué pasa si olvidas permitir 4242 antes de activar UFW?** - Me bloquearía el acceso SSH al servidor y tendría que acceder localmente para arreglarlo.
 - **¿Qué es iptables?** - Es una herramienta que permite configurar el firewall de Linux a nivel de kernel (Netfilter).
 - **¿Qué relación hay entre UFW e iptables?** - UFW es una interfaz simplificada que crea y gestiona reglas de iptables automáticamente.
-- **Netfilter:** el motor de filtrado dentro del kernel
-- **iptables:** el programa que habla con Netfilter
+- **¿Qué es Netfilter?** el motor de filtrado dentro del kernel, El módulo del kernel que implementa el filtrado de paquetes.
+- **¿Qué es iptables?:** el programa que habla con Netfilter, Herramienta del kernel que filtra y controla el tráfico de red.
 
+- **¿Qué es sudo?** - Permite ejecutar comandos como superusuario de forma temporal y segura.
+- **¿Dónde se configuran las reglas de sudo?** - En el archivo ``/etc/sudoers`` o dentro de ``/etc/sudoers.d/``
+- **¿Dónde se configuran los parámetros de caducidad de contraseñas?** - En ``/etc/login.defs``.
+- **¿Qué hace libpam-pwquality?** - Aplica reglas de complejidad a las contraseñas (mayúsculas, minúsculas, etc.).
+
+- **¿Qué diferencia hay entre useradd y adduser?** - adduser es más amigable e interactivo.
+- **¿Dónde se guardan los usuarios y grupos?** - En ``/etc/passwd`` y ``/etc/group.``
+
+- **¿Qué es cron?** - Un servicio que ejecuta tareas automáticamente en intervalos de tiempo. Cada minuto → cron lee los crontabs → ejecuta lo que toca.
+- **¿Por qué el cron se configura para root?** - Porque el script necesita permisos administrativos.
