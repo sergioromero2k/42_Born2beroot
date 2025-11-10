@@ -27,3 +27,11 @@
 
 - **¿Qué es cron?** - Un servicio que ejecuta tareas automáticamente en intervalos de tiempo. Cada minuto → cron lee los crontabs → ejecuta lo que toca.
 - **¿Por qué el cron se configura para root?** - Porque el script necesita permisos administrativos.
+
+- **¿Qué significa LLMP?**  - Linux + Lighttpd + MariaDB + PHP
+- **¿Qué es FastCGI?** - Protocolo que permite a PHP comunicarse con el servidor web para procesar scripts.
+- **¿Qué es WordPress?** - CMS gratuito para crear y administrar sitios web dinámicos.
+- **¿WordPress es gratuito?** - Sí, WordPress.org es gratis; WordPress.com tiene planes gratuitos y de pago.
+- **¿Por qué usar WordPress en Born2beroot?** - Para demostrar que el servidor LLMP funciona correctamente con una aplicación real.
+- **¿Qué significa `/var/www/html`?**  - Carpeta raíz donde el servidor web guarda los archivos públicos.
+- **¿Qué es `www-data`?** - Usuario que ejecuta el servidor web por seguridad.
