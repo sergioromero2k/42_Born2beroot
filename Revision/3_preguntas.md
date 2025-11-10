@@ -1,7 +1,13 @@
-- ¿Qué es aptitude y apt?
-- Diferencia entre aptitude y apt.
-- ¿Qué son SELinux y AppArmor?.
+## Preguntas para hacer en revisión del proyecto
+---
 
+- **¿Qué es aptitude y apt?**- apt es simple y directo; aptitude gestiona dependencias de forma más avanzada.
+- **Comando para actualizar paquetes con apt** - sudo apt update && sudo apt upgrade
+- Diferencia entre aptitude y apt.
+- **¿Qué son SELinux?** - Sistema de seguridad que usa políticas estrictas y etiquetas para controlar accesos de procesos y archivos.
+- **¿Qué es AppArmor?** - Sistema de seguridad que usa perfiles por aplicación para limitar accesos, más fácil de configurar.
+- **Distribuciones donde se usa SELinux por defecto** - RedHat, CentOS, Fedora
+- **Distribuciones donde se usa AppArmor por defecto** - Ubuntu, Debian, SUSE
 
 - **¿Qué puerto usa SSH en tu máquina?** - 4242
 - **¿Cuál es la diferencia entre ssh_config y sshd_config?** ``ssh_config`` controla el cliente SSH (cuando tú te conectas), y ``sshd_config`` el servidor (cuando se conectan a ti).
