@@ -9,6 +9,10 @@
 - **Distribuciones donde se usa SELinux por defecto** - RedHat, CentOS, Fedora
 - **Distribuciones donde se usa AppArmor por defecto** - Ubuntu, Debian, SUSE
 
+- **¿Qué comando se usa para redimensionar un volumen lógico?** - lvresize
+- **¿Por qué se recomienda separar /var/log en su propio volumen?** - Para evitar que los logs llenen la raíz y bloqueen el sistema.
+- **¿Por qué la swap tiene un tamaño de 2.29 GB?** - Porque debe ser cercana al tamaño de la RAM para soporte de memoria virtual.
+
 - **¿Qué puerto usa SSH en tu máquina?** - 4242
 - **¿Cuál es la diferencia entre ssh_config y sshd_config?** ``ssh_config`` controla el cliente SSH (cuando tú te conectas), y ``sshd_config`` el servidor (cuando se conectan a ti).
 - **¿Por qué cambiaste el puerto a 4242?** - Para aumentar la seguridad, ya que los bots escanean el puerto 22 por defecto.
