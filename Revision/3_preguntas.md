@@ -1,7 +1,17 @@
-- ¿Qué es aptitude y apt?
-- Diferencia entre aptitude y apt.
-- ¿Qué son SELinux y AppArmor?.
+## Preguntas para hacer en revisión del proyecto
+---
 
+- **¿Qué es aptitude y apt?**- apt es simple y directo; aptitude gestiona dependencias de forma más avanzada.
+- **Comando para actualizar paquetes con apt** - sudo apt update && sudo apt upgrade
+- Diferencia entre aptitude y apt.
+- **¿Qué son SELinux?** - Sistema de seguridad que usa políticas estrictas y etiquetas para controlar accesos de procesos y archivos.
+- **¿Qué es AppArmor?** - Sistema de seguridad que usa perfiles por aplicación para limitar accesos, más fácil de configurar.
+- **Distribuciones donde se usa SELinux por defecto** - RedHat, CentOS, Fedora
+- **Distribuciones donde se usa AppArmor por defecto** - Ubuntu, Debian, SUSE
+
+- **¿Qué comando se usa para redimensionar un volumen lógico?** - lvresize
+- **¿Por qué se recomienda separar /var/log en su propio volumen?** - Para evitar que los logs llenen la raíz y bloqueen el sistema.
+- **¿Por qué la swap tiene un tamaño de 2.29 GB?** - Porque debe ser cercana al tamaño de la RAM para soporte de memoria virtual.
 
 - **¿Qué puerto usa SSH en tu máquina?** - 4242
 - **¿Cuál es la diferencia entre ssh_config y sshd_config?** ``ssh_config`` controla el cliente SSH (cuando tú te conectas), y ``sshd_config`` el servidor (cuando se conectan a ti).
@@ -27,3 +37,11 @@
 
 - **¿Qué es cron?** - Un servicio que ejecuta tareas automáticamente en intervalos de tiempo. Cada minuto → cron lee los crontabs → ejecuta lo que toca.
 - **¿Por qué el cron se configura para root?** - Porque el script necesita permisos administrativos.
+
+- **¿Qué significa LLMP?**  - Linux + Lighttpd + MariaDB + PHP
+- **¿Qué es FastCGI?** - Protocolo que permite a PHP comunicarse con el servidor web para procesar scripts.
+- **¿Qué es WordPress?** - CMS gratuito para crear y administrar sitios web dinámicos.
+- **¿WordPress es gratuito?** - Sí, WordPress.org es gratis; WordPress.com tiene planes gratuitos y de pago.
+- **¿Por qué usar WordPress en Born2beroot?** - Para demostrar que el servidor LLMP funciona correctamente con una aplicación real.
+- **¿Qué significa `/var/www/html`?**  - Carpeta raíz donde el servidor web guarda los archivos públicos.
+- **¿Qué es `www-data`?** - Usuario que ejecuta el servidor web por seguridad.
