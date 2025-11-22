@@ -21,3 +21,8 @@ Nueva passwords, tras establecimiento de politicas:
 User: Fuerza#123A
 Root: Segur1dad#A
 new_user: Minim0Regla#
+
+Seguridad2024
+
+
+524.82M
