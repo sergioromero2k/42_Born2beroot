@@ -1,4 +1,4 @@
-*Este proyecto ha sido creado como parte del currículo de 42 por serromer.*
+*Este proyecto ha sido creado como parte del currículo de 42 por sergioromero2k.*
 
 # Born2beroot
 
@@ -42,7 +42,7 @@ Una vez configurada la máquina virtual:
 
 ##  Descripción del Proyecto: Elecciones Técnicas
 
-### 🔹 Elección del sistema operativo: **Debian o Rocky Linux**
+### Elección del sistema operativo: **Debian o Rocky Linux**
 
 | Aspecto | Debian | Rocky Linux |
 |--------|--------|-------------|
@@ -104,22 +104,22 @@ Depende del hardware del estudiante:
 
 ##  Elecciones de diseño durante la configuración
 
-### 🔸 Particionado
+### Particionado
 - Uso obligatorio de **LVM** para facilitar la extensibilidad.
 - Separación de particiones (/, /home, /var, /tmp…) para mejorar seguridad y estabilidad.
 
-### 🔸 Seguridad
+### Seguridad
 - Configuración estricta de sudo según las reglas del proyecto.
 - Política de contraseñas reforzada.
 - Uso de AppArmor o SELinux según el SO.
 - Firewall activo y configurado.
 
-### 🔸 Gestión de usuarios
+### Gestión de usuarios
 - Creación de un usuario principal y un grupo específico para sudo.
 - Control de permisos adecuado.
 - Auditoría mediante comandos como `last`, `sudo -l`, etc.
 
-### 🔸 Servicios instalados
+### Servicios instalados
 - SSH configurado con restricciones.
 - Cron para ejecutar el script de monitorización.
 - Servicios mínimos para evitar vulnerabilidades.
